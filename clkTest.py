@@ -5,6 +5,8 @@ import time
 from time import localtime, strftime
 pygame.init()
 
+#while 
+
 #screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 screen = pygame.display.set_mode((320, 240))
 caption = pygame.display.set_caption("Digital Clock") 
