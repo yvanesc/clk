@@ -18,7 +18,7 @@ class Clock(pygame.Surface):
 		self.hand_color = (255, 200, 0)
 		self.dots_color = (255, 100, 0)
 		self.background_color = (100, 0, 0)
-		self.background_image = pygame.image.load("back.png")
+		#self.background_image = pygame.image.load("back.png")
 		self.pos = (0, 0)
 		self.hand_length = 100
 		
