@@ -21,7 +21,7 @@ while done == False:
     strM2 = strftime("%M", localtime())[1:]+ ".bmp"
     
     #imgH1 = os.path.join("/home/pi/Documents/clkTest/nb/1.bmp")
-    imgH1 = os.path.join("./clk/nb/"+ strH1)
+    imgH1 = os.path.join("/nb/"+ strH1)
     imgH2 = os.path.join("./clk/nb/"+ strH2)
     imgM1 = os.path.join("./clk/nb/"+ strM1)
     #imgM2 = os.path.join("/home/pi/Documents/clkTest/nb/"+ strM2)
